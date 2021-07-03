@@ -1,0 +1,33 @@
+
+<table>
+    <tr>
+
+        <th>Books</th><br>
+        
+    </tr>
+    <tr *ngFor=" let book of books">
+        <th>id: </th>
+        <td>{{ book.id}}</td><br><br>
+        <th>type:  </th>
+        <td>{{ book.type }}</td>
+    </tr>
+</table>
+<table>
+<tr>
+    <th>Pens</th>
+        <tr *ngFor="let pen of pens">
+        <td>{{ pen.id}}</td>
+        <td>{{ pen.type }}</td>
+</tr>
+</table>
+<table>
+<tr>
+    <th>Frames</th>
+    <tr *ngFor="let frame of frames">
+        <td>{{ frame.id}}</td>
+        <td>{{frame.type}}</td>
+</tr>
+
+</table>
+
+
